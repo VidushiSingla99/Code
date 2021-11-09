@@ -15,7 +15,8 @@ etc
 <script>
 
 Submit() { 
-Input. Value = " " // empty input value
+alert(document.getElementById(‘input’).value)
+document.getElementById(‘input’).value = ” "
 gText() ;  // call 
 }
 
